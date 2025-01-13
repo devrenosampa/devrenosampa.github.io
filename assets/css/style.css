@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Adicionando box-sizing para garantir que as bordas e paddings sejam considerados nas larguras */
+* {
+    box-sizing: border-box;
+}
+
+h1 img {
+    display: block;
+    align-items: center;
+    margin-top: 100px;
+    width: 220px;
+    height: 60px;
+}
+
+body {
+    background-color: #ebe0ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+    margin: 0;
+}
+
+.form-container {
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(51, 51, 51, 0.267);
+    border-radius: 25px;
+    text-align: center;
+    width: 400px;
+    height: 390px;
+    font-size: 28px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo da form-container */
+}
+
+.input-field {
+    border: solid 1px #cacaca;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-top: 22px;
+    width: 350px;
+    height: 50px;
+    font-size: medium;
+}
+
+input::placeholder {
+    color: #a3a3a3;
+    padding-left: 10px;
+}
+
+hr {
+    border: 0;
+    width: 350px;
+    height: 1px;
+    background: #cacaca;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #9c66fb;
+    text-decoration: underline;
+    font-size: small;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    display: block;
+    white-space: nowrap;
+}
+
+.button-login {
+    background-color: #9c66fb;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 10px 0;
+    padding: 8px;
+    width: 350px;
+}
+
+.button-register {
+    background-color: #1d8019;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 200px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: small;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
